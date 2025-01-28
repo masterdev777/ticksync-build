@@ -1,0 +1,4 @@
+import{a as i,j as o}from"./index-DauSMKcA.js";const d=({status:e,handleChangeStatus:r})=>{const t=i(l=>l.toggle.theme);return o.jsxs("div",{className:`${t==="dark"?"border-color6 bg-color10":"border-[#606060] bg-color2"} w-[72px] h-[28px] border-[1px] rounded-full
+      flex items-center ${e?"justify-end":"justify-start"} cursor-pointer`,onClick:r,children:[o.jsx("div",{className:`${e?"flex":"hidden"} ${t!=="dark"?"bg-lightFontColor text-light":"bg-color5 text-lightFontColor"} mr-[1px] w-11 h-6 rounded-full
+        items-center justify-center font-medium text-sm`,children:"ON"}),o.jsx("div",{className:`${e?"hidden":"flex"} ${t!=="dark"?"bg-color11 text-light":"bg-color6 text-lightFontColor"} ml-[1px] w-11 h-6 rounded-full
+        items-center justify-center font-medium text-sm text-lightFontColor`,children:"OFF"})]})};export{d as T};
